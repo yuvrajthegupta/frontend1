@@ -1,0 +1,61 @@
+.Heading{
+    background-color: #f5f3f4;
+    border-radius: 25px;
+    justify-content: center;
+    padding-left: 25px;
+    margin-top: 5px;
+    
+    
+}
+
+.Searchbar{
+    justify-content:center;
+    align-content: center;
+    margin-right: 25px;
+    margin-left: 350px;
+    margin-bottom: 25px;
+}
+.btnSearch{
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    
+}
+.backtosongs{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+.backtosongs{
+    margin-top: 5px;
+    justify-content: center;
+    border-radius: 50px;
+    
+}
+.card{
+    
+    margin-bottom: 10px;
+}
+
+.btns{
+    
+    background-color: black;
+    display :flex;
+    margin-bottom: 5px;
+    
+}
+#b1{
+    color : white;
+    
+}
+#b2{
+    color : white;
+}
+#b3{
+    color : white;
+}
+#outlined-basic{
+    margin-top: 5px;
+}
