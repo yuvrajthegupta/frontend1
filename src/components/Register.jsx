@@ -19,7 +19,7 @@ export const Register = () =>{
             'password' : pwdref.current.value,
         }
         try{
-        const response = await networkoperations.post('http://localhost:1234/register',userinfo);
+        const response = await networkoperations.post(process.env.REACT_APP_CODE_REGISTER,userinfo);
         console.log('response',response);
         setMessage(response.data.message)
         console.log("userinfo",userinfo);

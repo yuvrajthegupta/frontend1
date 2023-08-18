@@ -15,8 +15,7 @@ export const Login = () => {
       password: pwdref.current.value,
     };
     try {
-      const response = await networkoperations.post(
-        "http://localhost:1234/login",
+      const response = await networkoperations.post(process.env.REACT_APP_CODE_URL,
         userinfo
       );
       setMessage(response.data.message);
